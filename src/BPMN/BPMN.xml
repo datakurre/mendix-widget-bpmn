@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BPMN.widget.BPMN" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>BPMN</name>
+  <description>BPMN.js widget</description>
+  <icon/>
+  <properties>
+    <property key="xml" type="string" required="false">
+      <caption>XML</caption>
+      <category>BPMN</category>
+      <description>Process diagram XML source</description>
+    </property>
+    <property key="xmlAttribute" type="attribute" required="false"
+              allowNonPersistableEntities="true">
+      <caption>XML attribute</caption>
+      <category>BPMN</category>
+      <description>Attribute with the process diagram XML source</description>
+      <attributeTypes>
+        <attributeType name="String"/>
+      </attributeTypes>
+    </property>
+    <property key="highlight" type="string" required="false">
+      <caption>Highlight</caption>
+      <category>BPMN</category>
+      <description>Diagram element id to be highlighted</description>
+    </property>
+    <property key="highlightAttribute" type="attribute" required="false"
+              allowNonPersistableEntities="true">
+      <caption>Highlight attribute</caption>
+      <category>BPMN</category>
+      <description>Attribute with the diagram element id to be highlighted</description>
+      <attributeTypes>
+        <attributeType name="String"/>
+      </attributeTypes>
+    </property>
+  </properties>
+</widget>
+

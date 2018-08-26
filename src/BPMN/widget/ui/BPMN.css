@@ -1,0 +1,13 @@
+.bpmn-widget {
+    width: 100%;
+    max-height: 50vh;
+}
+
+.bpmn-highlight:not(.djs-connection) .djs-visual > :nth-child(1) {
+    fill: #52b415 !important;
+}
+
+.bpmn-highlight:not(.djs-connection) .djs-visual text {
+    fill: white !important;
+    font-weight: bold !important;
+}
